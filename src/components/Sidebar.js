@@ -28,7 +28,6 @@ export default function Sidebar() {
           alt="logo de javascript"
         />
         <img
-          className="pb-2"
           src="./assets/languages/bootstrap.png"
           alt="logo de boostrap"
         />
@@ -53,12 +52,12 @@ export default function Sidebar() {
           alt="logo de node.js"
         />
         <img
-          className="mongoDB"
+          className="mongoDB pt-2"
           src="./assets/languages/mongoDB.png"
           alt="logo de mongoDB.js"
         />
         <img
-          className="sidebar pb-2 "
+          className="sidebar pb-2 pt-2 "
           src="./assets/languages/mySQL.png"
           alt="logo de mySQL.js"
         />
@@ -72,7 +71,12 @@ export default function Sidebar() {
           src="./assets/languages/prestashop.png"
           alt="logo de prestashop.js"
         />
-        <div className="d-flex align-items-center pb-4 pt-2">
+                <img
+          className="sidebar"
+          src="./assets/languages/seo.png"
+          alt="logo du SEO"
+        />
+        <div className="d-flex align-items-center pb-4">
           <img
             src="./assets/languages/figma.png"
             alt="logo de figma"
