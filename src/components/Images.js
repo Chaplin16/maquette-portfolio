@@ -123,32 +123,38 @@ const Images = {
         {
             image:'./assets/projets-fictifs/react-capsules-champagne.png',
             alt:"Copie du prestashop jpcapsules.fr en react",
-            link:'https://capsules-champagne.vercel.app/'
+            link:'https://capsules-champagne.vercel.app/',
+            popUp:'Reproduction site Prestashop en React.js'
         },
         {
             image:'./assets/projets-fictifs/next-projet-2.png',
             alt:"Genre de blog avec API externe",
-            link:'https://projet2-fictif-next.vercel.app/'
+            link:'https://projet2-fictif-next.vercel.app/',
+            popUp:"Blog en Next.js (API ext)"
         },
         {
             image:'./assets/projets-fictifs/mongoDB-e-commerce.png',
             alt:"Site e-commerce avec MongoBD en node.js et js en front",
-            link:'https://github.com/Chaplin16/RamosAurore_5_28122020'
+            link:'https://github.com/Chaplin16/RamosAurore_5_28122020',
+            popUp:'E-commerce en JS (MongoDB)'
         },
         {
             image:'./assets/projets-fictifs/groupomania.png',
             alt:"Tchat d'entreprise avec MySQL, node.js, Sequelize/ Express, js et bootstrap",
-            link:'https://github.com/Chaplin16/RamosAurore_7_21032021'
+            link:'https://github.com/Chaplin16/RamosAurore_7_21032021',
+            popUp:"Tchat d'entreprise Node.js (MySQL)"
         },
         {
             image:'./assets/projets-fictifs/maquette-portfolio.png',
             alt:"Maquette du portfolio codée en react",
-            link:''
+            link:'https://portfolio-blush-theta-64.vercel.app/',
+            popUp: "Maquette Figma codée en React.js"
         },
         {
             image:'./assets/projets-fictifs/next-exercice-divers.png',
             alt:"Exercice en react",
-            link:'https://projet-fictif-next.vercel.app/'
+            link:'https://projet-fictif-next.vercel.app/',
+            popUp:'Exercices en React / API ext'
         }
     ]
 };

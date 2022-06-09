@@ -58,6 +58,7 @@ export default function Carousel({images}) {
         {images.map((item) => (
           <a href={item.link} key={uuidv4()}>
             <div className="cardImage pt-5 pb-5">
+              <p className="popUp text-center text-decoration-none">{item.popUp}</p>
               <img src={item.image} alt={item.alt} />
             </div>
           </a>
