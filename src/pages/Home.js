@@ -21,6 +21,15 @@ export default function Home() {
       <h2 className="title">Blog et projets fictifs </h2>
       <Carousel images={Images.projects} />
       <Footer />
+      <p className="text-center">
+        <a href={`/training`}>
+          <img
+            src="./assets/down-arrow.png"
+            alt="fleche pour changer de pages"
+          />
+          <p>Formation/Expérience</p>
+        </a>
+      </p>
     </>
   );
 }

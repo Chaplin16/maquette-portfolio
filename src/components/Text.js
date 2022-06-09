@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function Text() {
   return (
     <div className='text text-align-left pt-3 pe-4 mb-5 w-100 content'>

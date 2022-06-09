@@ -1,8 +1,6 @@
-import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import { v4 as uuidv4 } from "uuid";
-import Images from "./Images";
 
 export default function Carousel({images}) {
   const sliderSettings = {

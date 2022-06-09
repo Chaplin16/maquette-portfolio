@@ -1,0 +1,12 @@
+.arrow{
+    color:#000;
+    font-weight: 600;
+    &:hover{
+        color: #8102b7;
+    }
+}
+
+.blocArrow:hover{
+    background-color: rgb(243, 241, 241);
+    border-radius:15px;
+}

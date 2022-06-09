@@ -23,6 +23,13 @@ footer{
         height: 45px;
         padding-bottom:10px;
     }
+    a p {
+        color: #000;
+        font-weight: 600;;
+        &:hover{
+            color: #8102b7;
+        }
+    }
 }
 
 @media screen and (max-width: 450px)
@@ -60,7 +67,7 @@ footer{
 @media screen and (min-width: 800px)
 {
     footer{
-        margin-left: 15vw;
+        margin-left: 13vw;
         max-width: 750px;
     }
     .phone{
@@ -80,10 +87,7 @@ footer{
 @media screen and (min-width: 1050px)
 {   
      footer{
-        max-width: 900px;
-        li{
-            font-size: 1.2rem!important;
-        }
+        max-width: 800px;
         .flag{
             flex-direction: row;
             column-gap: 1rem;
@@ -95,17 +99,24 @@ footer{
     }
 }
 
-@media screen and (min-width: 1350px)
+@media screen and (min-width: 1100px)
 {
     footer{
-        max-width: 68vw;
+        max-width: 75vw;
         padding-top:2rem;
     }
 }
 
-@media screen and (min-width: 1600px)
+@media screen and (min-width: 1300px)
 {
     footer{
         max-width: 70vw;
+    }
+}
+
+@media screen and (min-width: 1500px)
+{
+    footer{
+        max-width: 75vw;
     }
 }
