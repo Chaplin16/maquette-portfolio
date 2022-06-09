@@ -22,7 +22,7 @@ export default function CardTraining(props) {
             </div>
           </div>
           <a href={item.link} className="card-link p-2">
-            <img src={item.image} alt="{item.alt}" />
+            <img src={item.image} alt={item.alt} />
           </a>
         </div>
       ))}

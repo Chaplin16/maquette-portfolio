@@ -1,4 +1,3 @@
-import React from "react";
 import CardTraining from "../components/CardTraining";
 import training from "../components/ArrayTraining";
 import arrayArrow from "../components/ArrayArrow";
