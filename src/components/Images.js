@@ -124,7 +124,7 @@ const Images = {
             image:'./assets/projets-fictifs/react-capsules-champagne.png',
             alt:"Copie du prestashop jpcapsules.fr en react",
             link:'https://capsules-champagne.vercel.app/',
-            popUp:'Reproduction site Prestashop en React.js'
+            popUp:'Reproduction en React.js'
         },
         {
             image:'./assets/projets-fictifs/next-projet-2.png',
@@ -142,13 +142,13 @@ const Images = {
             image:'./assets/projets-fictifs/groupomania.png',
             alt:"Tchat d'entreprise avec MySQL, node.js, Sequelize/ Express, js et bootstrap",
             link:'https://github.com/Chaplin16/RamosAurore_7_21032021',
-            popUp:"Tchat d'entreprise Node.js (MySQL)"
+            popUp:"Tchat en Node.js (MySQL)"
         },
         {
             image:'./assets/projets-fictifs/maquette-portfolio.png',
             alt:"Maquette du portfolio codée en react",
             link:'https://portfolio-blush-theta-64.vercel.app/',
-            popUp: "Maquette Figma codée en React.js"
+            popUp: "Maquette codée en React.js"
         },
         {
             image:'./assets/projets-fictifs/next-exercice-divers.png',
