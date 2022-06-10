@@ -26,6 +26,7 @@ export default function Hobbies() {
         </a>
       </div>
       <Arrow arrayArrow={arrayArrow.trainingUp} />
+      <p className="lead text-end ">Site codé avec beaucoup de plaisir en REACT 😀</p>
     </div>
   );
 }
