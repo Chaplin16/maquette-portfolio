@@ -1,3 +1,8 @@
+@keyframes animArrow{
+    0% {transform: translate(0px, 0px)}
+    50%{transform: translate(0, -8px)}
+    100%{transform: translate(0, 0)}
+}
 .arrow{
     color:#000;
     font-weight: 600;
@@ -6,7 +11,14 @@
     }
 }
 
+.blocArrow img{
+    animation: animArrow 1000ms infinite ease;
+}
+
 .blocArrow:hover{
     background-color: rgb(243, 241, 241);
     border-radius:15px;
+    max-width:17rem;
+    margin: auto;
+
 }

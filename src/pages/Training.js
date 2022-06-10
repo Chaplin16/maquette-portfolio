@@ -1,7 +1,7 @@
 import CardTraining from "../components/CardTraining";
 import training from "../components/ArrayTraining";
 import arrayArrow from "../components/ArrayArrow";
-import Arrow from "../components/Arrow";
+import Arrow from "../components/CardArrow";
 
 
 export default function Training(props) {

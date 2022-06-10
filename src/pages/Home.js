@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 import Carousel from "../components/Carousel";
 import Images from "../components/Images";
 import arrayArrow from "../components/ArrayArrow";
-import Arrow from "../components/Arrow";
+import Arrow from "../components/CardArrow";
 
 export default function Home() {
   return (

@@ -1,7 +1,7 @@
 import CardHobbies from "../components/CardHobbies";
 import hobbies from "../components/ArrayHobbies";
 import arrayArrow from "../components/ArrayArrow";
-import Arrow from "../components/Arrow";
+import Arrow from "../components/CardArrow";
 
 export default function Hobbies() {
   return (
@@ -12,7 +12,18 @@ export default function Hobbies() {
         <CardHobbies hobbies={hobbies.sport} />
         <CardHobbies hobbies={hobbies.caps} />
       </div>
-      <Arrow arrayArrow={arrayArrow.trainingUp}/>
+      <div className="text-center mb-4 display-6 ">
+        <p className="p-3 code">
+          Et bien sûr : <strong>CODER!</strong> 😍
+        </p>
+        <a href="https://www.youtube.com/watch?v=EUskk3elBA0">
+          <img
+            src="./assets/video-aurore-creation-web.png"
+            alt="vidéo d Aurore Création Web"
+          />
+        </a>
+      </div>
+      <Arrow arrayArrow={arrayArrow.trainingUp} />
     </div>
   );
 }
