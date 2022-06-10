@@ -7,19 +7,21 @@ export default function Hobbies() {
   return (
     <div>
       <h2 className="text-center pt-5 display-3">Hobbies</h2>
-      <div className="d-flex flex-wrap justify-content-around">
+      <div className="d-flex flex-wrap justify-content-around mb-3">
         <CardHobbies hobbies={hobbies.handiwork} />
         <CardHobbies hobbies={hobbies.sport} />
         <CardHobbies hobbies={hobbies.caps} />
       </div>
-      <div className="text-center mb-4 display-6 ">
-        <p className="p-3 code">
+      <div className="text-center display-6 ">
+        
+        <p className="p-3 code mb-5">
           Et bien sûr : <strong>CODER!</strong> 😍
         </p>
         <a href="https://www.youtube.com/watch?v=EUskk3elBA0">
           <img
             src="./assets/video-aurore-creation-web.png"
             alt="vidéo d Aurore Création Web"
+            className="pb-5"
           />
         </a>
       </div>

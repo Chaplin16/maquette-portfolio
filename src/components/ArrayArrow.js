@@ -3,7 +3,7 @@ const arrayArrow = {
     {
       link: `/`,
       src: "./assets/up-arrow.png",
-      legend: "Portfolio",
+      legend: "Accueil",
     },
   ],
   training: [

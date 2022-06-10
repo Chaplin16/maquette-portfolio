@@ -17,17 +17,17 @@ export default function Footer() {
           </li>
           <li>
             <a href="https://github.com/Chaplin16?tab=repositories">
-              https://github.com/Chaplin16?tab=repositories
+              Github repositories
             </a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/aurore-creation-web/">
-              https://www.linkedin.com/in/aurore-creation-web/
+              Linkedin
             </a>
           </li>
           <li>
             <a href="https://aurorecreationweb.fr">
-              https://aurorecreationweb.fr
+              Aurore Création Web
             </a>
           </li>
           <li className="fw-bold">06.77.80.98.69</li>

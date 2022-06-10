@@ -51,7 +51,7 @@ export default function Carousel({images}) {
 
 
   return (
-    <div className="content">
+    <div className="content" id="portfolio">
       <Slider {...sliderSettings}>
         {images.map((item) => (
           <a href={item.link} key={uuidv4()}>
