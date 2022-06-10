@@ -3,19 +3,19 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 
-import Home from "./pages/home";
-import Training from "./pages/training";
-import Hobbies from "./pages/hobbies";
+import Home from "./pages/Home";
+import Training from "./pages/Training";
+import Hobbies from "./pages/Hobbies";
 
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/Home" element={<Home />} />
         <Route path="*" element={<Home />} />  {/* Si erreur de chemin : renvoie à l'accueil */}
-        <Route path="/training" element={<Training />} />
-        <Route path="/hobbies" element={<Hobbies />} />
+        <Route path="/Training" element={<Training />} />
+        <Route path="/Hobbies" element={<Hobbies />} />
       </Routes>
     </BrowserRouter>
   );
