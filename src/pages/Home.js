@@ -5,6 +5,8 @@ import Text from "../components/Text";
 import Footer from "../components/Footer";
 import Carousel from "../components/Carousel";
 import Images from "../components/Images";
+import arrayArrow from "../components/ArrayArrow";
+import Arrow from "../components/Arrow";
 
 export default function Home() {
   return (
@@ -21,15 +23,7 @@ export default function Home() {
       <h2 className="title">Blog et projets fictifs </h2>
       <Carousel images={Images.projects} />
       <Footer />
-      <p className="text-center">
-        <a href={`/training`}>
-          <img
-            src="./assets/down-arrow.png"
-            alt="fleche pour changer de pages"
-          />
-          <p>Formation/Expérience</p>
-        </a>
-      </p>
+      <Arrow arrayArrow={arrayArrow.training}/>
     </>
   );
 }

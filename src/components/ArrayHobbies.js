@@ -34,7 +34,49 @@ const hobbies = {
       src: "./assets/hobbies/developpe-couché.jpg",
       alt: "",
     },
+    {
+      src: "./assets/hobbies/traction-avec-elastique.png",
+      alt: "",
+    },
+    {
+      src: "./assets/hobbies/peck-deck.png",
+      alt: "",
+    },
+    {
+      src: "./assets/hobbies/monter-de-box.jpg",
+      alt: "",
+    },
+    {
+      src: "./assets/hobbies/developpe-couché.jpg",
+      alt: "",
+    }
   ],
+  caps : [
+    {
+      src:"./assets/hobbies/caps-pinUp.png",
+      alt:""
+    },
+    {
+      src:"./assets/hobbies/caps-parisenne.png",
+      alt:""
+    },
+    {
+      src:"./assets/hobbies/caps-LALLEMENT.png",
+      alt:""
+    },
+    {
+      src:"./assets/hobbies/caps-de-gaulle.png",
+      alt:""
+    },
+    {
+      src:"./assets/hobbies/caps-sonnet-gillot.png",
+      alt:""
+    },
+    {
+      src:"./assets/hobbies/caps-strauss-gorgeton.png",
+      alt:""
+    },
+  ]
 };
 
 export default hobbies;

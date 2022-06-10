@@ -1,9 +1,9 @@
 export default function CardHobbies(props) {
   return (
-    <main>
-        <div className="d-flex flex-wrap justify-content-around ">
+    <main>        
             <div className="card m-2 mb-5">
-              <h3 className="card-title">Bricolage</h3>
+            
+              <h3 className="card-title text-center pt-3">Bricolage</h3>
               <div className="card-body">
                   {props.hobbies.map((photo,index) => [
                       <img key= {index} src={photo.src} alt={photo.alt} />
@@ -11,7 +11,7 @@ export default function CardHobbies(props) {
                     
                 </div>
             </div>
-        </div>
     </main>
   );
+
 }
