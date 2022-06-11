@@ -13,7 +13,6 @@ export default function Hobbies() {
         <CardHobbies hobbies={hobbies.caps} />
       </div>
       <div className="text-center display-6 ">
-        
         <p className="p-3 code mb-5">
           Et bien sûr : <strong>CODER!</strong> 😍
         </p>
@@ -23,10 +22,16 @@ export default function Hobbies() {
             alt="vidéo d Aurore Création Web"
             className="pb-5"
           />
+          <img
+            src="./assets/tap.png"
+            alt="cliquez sur la vidéo d'Aurore Création Web"
+          />
         </a>
       </div>
       <Arrow arrayArrow={arrayArrow.trainingUp} />
-      <p className="lead text-end ">Site codé avec beaucoup de plaisir en REACT 😀</p>
+      <p className="lead text-end">
+        Site codé avec beaucoup de plaisir en REACT 😀
+      </p>
     </div>
   );
 }
