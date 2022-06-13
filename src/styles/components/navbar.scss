@@ -1,5 +1,5 @@
 nav{
-    background:linear-gradient(0deg,#fff,rgb(189, 187, 187));
+    background:linear-gradient(0deg,#fff,rgb(226, 226, 226));
     border-end-start-radius: 15px;
     max-width: 7rem;
     padding-left:0;
@@ -33,11 +33,7 @@ nav{
     }
 }
 
-@media screen and (min-width: 800px) and (max-width:1000px){
-    nav li{
-        font-size: 1rem!important;
-    }
-}
+
 
 @media screen and (min-width: 1000px){
     button{
@@ -58,8 +54,8 @@ nav{
         padding-right:1.3rem;
         padding-left: 1.20rem;
         align-items:center;
-        background-color:#cdcccc;
-        color: #fff;
+        background-color:#e6e6e6;
+        color: rgba(116, 112, 112, 0.767);
         &:hover{
             color:rgba(156, 84, 238, 0.767);
             box-shadow: 0 0 0 grey ;
