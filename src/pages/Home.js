@@ -22,7 +22,6 @@ export default function Home() {
         <meta property="og:site_name" content="Portfolio d'Aurore RAMOS"/>
         <meta property="og:type" content="site web" />
         <meta property="og:url" content="https://portfolio-brown-omega-58.vercel.app/" />
-/>
         <meta property="og:title" content="Portfolio d'Aurore RAMOS"/>
         <meta property="og:description" content="Portfolio et cv pour trouver un stage de developpeur web en front-end, back-end ou full-stack en télétravail. Passionnée de code, je veux juste coder, apprendre et découvrir" />
         <meta property="og:image" content="https://aurorecreationweb.fr/images/aurore-creation-web-site-internet.png"/>

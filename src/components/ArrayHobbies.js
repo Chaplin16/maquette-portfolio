@@ -52,7 +52,7 @@ const hobbies = {
         alt: "",
       },
       {
-        src: "./assets/hobbies/developpe-couché.jpg",
+        src: "./assets/hobbies/aurore-natation.jpg",
         alt: "",
       }
     ]
