@@ -5,7 +5,7 @@ import Arrow from "../components/CardArrow";
 
 export default function Hobbies() {
   return (
-    <div>
+    <div >
       <h2 className="text-center pt-5 display-3">Hobbies</h2>
       <div className="d-flex flex-wrap justify-content-around mb-3">
         <CardHobbies hobbies={hobbies.handiwork} />

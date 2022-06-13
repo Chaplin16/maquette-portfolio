@@ -1,8 +1,9 @@
 nav{
-    background-color: rgb(241, 240, 240);
+    background:linear-gradient(0deg,#fff,rgb(189, 187, 187));
     border-end-start-radius: 15px;
     max-width: 7rem;
     padding-left:0;
+    padding-top:2rem;
     position: fixed;
     top:0;
     right:0;
@@ -12,9 +13,10 @@ nav{
     }
     ul{
         color:rgba(241, 240, 240, 0.767);
-        padding-left: 1rem!important;
+        padding-left: 0.5rem!important;
         padding-right:0.5rem;
         list-style:none;
+        position: relative;
         li {
             padding-top:1rem!important;
             a {
@@ -28,9 +30,41 @@ nav{
     }
 }
 
-@media screen and (max-width: 950px){
-    nav{
+@media screen and (min-width: 800px) and (max-width:1000px){
+    nav li{
+        font-size: 1rem!important;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    button{
         display: none!important;
     }
-    
+    nav{
+        padding-top:0;
+        padding-left:1rem;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .btn{
+        display: block;
+        position: absolute;
+        top:0;
+        right:0;
+        padding-right:1.3rem;
+        padding-left: 1.20rem;
+        align-items:center;
+        background-color:#cdcccc;
+        color: #fff;
+        &:hover{
+            color:rgba(156, 84, 238, 0.767);
+            box-shadow: 0 0 0 grey ;
+            outline: none!important;
+        }
+        &:focus{
+            outline: none!important;
+            box-shadow: -0.2px -0.4px 4px  rgb(164, 162, 162);
+        }
+    }
 }
