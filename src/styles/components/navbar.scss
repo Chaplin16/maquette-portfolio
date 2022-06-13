@@ -12,20 +12,23 @@ nav{
         box-shadow: -0.4px -0.4px 4px  rgb(194, 192, 192);
     }
     ul{
+        display: flex;
+        flex-direction: column;
         color:rgba(241, 240, 240, 0.767);
-        padding-left: 0.5rem!important;
-        padding-right:0.5rem;
+        padding: 0.5rem;
+        line-height: 2rem;;
         list-style:none;
         position: relative;
-        li {
-            padding-top:1rem!important;
-            a {
-                color:rgba(133, 131, 131, 0.767);
-                &:hover{
-                    color:rgba(156, 84, 238, 0.767);
-                    border-bottom: 1px dotted grey;
-                }
+        & .link {
+            color:rgba(133, 131, 131, 0.767);
+            &:hover{
+                color:rgba(156, 84, 238, 0.767);
+                border-bottom: 1px dotted grey;
             }
+        }
+        .link-active{
+            color:rgba(156, 84, 238, 0.767);
+            border-bottom: 1px dotted grey;
         }
     }
 }

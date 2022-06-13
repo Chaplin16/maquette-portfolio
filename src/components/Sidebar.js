@@ -81,7 +81,6 @@ export default function Sidebar() {
           />
           <span>figma</span>
         </div>
-
         <img
           className="sidebar pb-3"
           src="./assets/languages/gandi.png"

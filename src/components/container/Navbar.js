@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -26,20 +27,29 @@ export default function Navbar() {
     <nav>
       {(toggleMenu || largeur > 1000) && (
         <ul>
-          <li>
-            <a href="./">Accueil</a>
-          </li>
-          <li>
-            <a href="./Training">Formation</a>
-          </li>
-          <li>
-            <a href="./Hobbies">Hobbies</a>
-          </li>
+          <NavLink
+            to="/"
+            className={({ isActive }) => (isActive ? "link-active" : "link")}
+          >
+            Accueil
+          </NavLink>
+          <NavLink
+            to="/Training"
+            className={({ isActive }) => (isActive ? "link-active" : "link")}
+          >
+            Formation
+          </NavLink>
+          <NavLink
+            to="/Hobbies"
+            className={({ isActive }) => (isActive ? "link-active" : "link")}
+          >
+            Hobbies
+          </NavLink>
         </ul>
       )}
 
       <button onClick={navSmallScreen} className="btn">
-      MENU
+        MENU
       </button>
     </nav>
   );
