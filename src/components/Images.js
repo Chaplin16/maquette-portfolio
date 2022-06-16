@@ -3,7 +3,7 @@ const Images = {
         {
             image: './assets/site-vitrine/aurore-creation-web-aiguesbike.png',
             alt:"Création d'un site de location de vélo",
-            link:'https://aiguesbike.fr/'
+            link:'https://chaplin16.github.io/aigues_bike/'
         },
         {
             image:'./assets/site-vitrine/aurore-creation-web-artisans-de-samael.png',
