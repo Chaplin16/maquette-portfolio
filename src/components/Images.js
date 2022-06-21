@@ -13,7 +13,7 @@ const Images = {
         {
             image:'./assets/site-vitrine/aurore-creation-web-nokisland.png',
             alt:"Création d'un site pour une boutiquede vêtements",
-            link:'https://nokisland.fr/'
+            link:'https://chaplin16.github.io/nokIsland/'
         },
         {
             image:'./assets/site-vitrine/aurore-creation-web-roudil.png',
@@ -38,7 +38,7 @@ const Images = {
         {
             image:'./assets/site-vitrine/aurore-creation-web-lentracte.png',
             alt:"Création d'un site pour un snack",
-            link:'https://lentracte-aiguesmortes.fr/'
+            link:'https://chaplin16.github.io/entracte/'
         },
         {
             image:'./assets/site-vitrine/aurore-creation-web-o-phil-des-saveurs.png',
