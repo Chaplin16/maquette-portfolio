@@ -1,0 +1,13 @@
+#slideLanguages {
+    max-width:92%;
+    margin:auto;
+    img {
+        width:75px;
+        height:auto;
+        filter: grayscale(1);
+        &:hover{
+            filter:grayscale(0);
+        }
+    }
+}
+    

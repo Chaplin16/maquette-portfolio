@@ -1,3 +1,4 @@
+//tableau des réalisatioons format portable sur la page portfolio
 const Images = {
     vitrine : [
         {
@@ -53,7 +54,7 @@ const Images = {
         {
             image:'./assets/site-vitrine/aurore-creation-web-cordonnier-remparts.png',
             alt:"Création d'un site pour un cordonnier",
-            link:'https://cordonneriedesremparts.fr/'
+            link:'https://chaplin16.github.io/cordonnerie/'
         },
         {
             image:'./assets/site-vitrine/aurore-creation-web-jotraiteur.png',
@@ -68,7 +69,7 @@ const Images = {
         {
             image:'./assets/site-vitrine/aurore-creation-web-cordonnier-grau.png',
             alt:"Création d'un site pour un cordonnier sur le grau du roi ",
-            link:'http://cordonneriedugrau.fr/'
+            link:'https://chaplin16.github.io/cordonnerie-du-grau/'
         },
         {
             image:'./assets/site-vitrine/aurore-creation-web-scenario.png',
@@ -86,11 +87,6 @@ const Images = {
             image:'./assets/site-cms/aurore-creation-web-carrousel.png',
             alt:"Création d'un site internet pour",
             link:'https://carrousel-aiguesmortes.fr/'
-        },
-        {
-            image:'./assets/site-cms/aurore-creation-web-caze-dec-oceane.png',
-            alt:"Création d'un site internet pour le manède d'Aigues-Mortes",
-            link:'https://decoaiguesmortes.fr/'
         },
         {
             image:'./assets/site-cms/aurore-creation-web-judo.png',

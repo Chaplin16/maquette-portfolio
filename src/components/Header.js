@@ -1,12 +1,17 @@
+//barre de porgression avec le titre et le logo sur la video
+import "react-bootstrap/ProgressBar";
+
 export default function Header() {
+
+  //barre de porgression
+  function Progress() {
+    return <div className="progress-bar"></div>;
+  }
+
   return (
-    <>
-       <div className="header d-flex justify-content-around align-items-center">
-        <img
-          className="aurore"
-          src="./assets/aurore-creation-web.jpeg"
-          alt="aurore ramos au travail"
-        />
+    <header>
+      <Progress />   
+      <div className="header d-flex justify-content-center align-items-center">
         <h1>
           <p>Aurore</p>
           <p>Création</p>
@@ -14,12 +19,10 @@ export default function Header() {
         </h1>
         <img
           className="logo"
-          src="./assets/logo-aurore-creation-web.png"
+          src="./assets/aurore-creation-web.png"
           alt="logo Aurore Création Web"
         />
       </div>
-    
-     
-    </>
+    </header>
   );
 }

@@ -1,16 +1,15 @@
+//fleche pour changer de page dessous le footer
 @keyframes animArrow{
     0% {transform: translate(0px, 0px)}
     50%{transform: translate(0, -8px)}
     100%{transform: translate(0, 0)}
 }
+
 .arrow{
     color:#000;
     font-size: 1.1rem;;
     font-weight: 600;
     font-family: 'Arima Madurai', cursive;
-    &:hover{
-        color: #8102b7;
-    }
 }
 
 .blocArrow img{
@@ -18,7 +17,7 @@
 }
 
 .blocArrow{
-    max-width:17rem;
+    max-width:20rem;
     margin: auto;
 }
 

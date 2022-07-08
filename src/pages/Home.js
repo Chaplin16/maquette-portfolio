@@ -1,30 +1,34 @@
 import React from "react";
-import Sidebar from "../components/Sidebar";
+import { HashLink as Link } from 'react-router-hash-link'
+import Video from "../components/Video"
 import Header from "../components/Header";
-import Text from "../components/Text";
-import Footer from "../components/Footer";
-import Carousel from "../components/Carousel";
-import Images from "../components/Images";
+import CardPortfolio from "../components/CardPortfolio";
+import portfolio from "../components/ArrayPortfolio";
 import arrayArrow from "../components/ArrayArrow";
+import Text from "../components/Text";
+import SoftSkills from "../components/SoftSkills";
+import Footer from "../components/Footer";
 import Arrow from "../components/CardArrow";
+import SlideLanguages from "../components/SlideLanguages";
 
 
 export default function Home() {
   return (
     <>
-      <Sidebar />
-      <Header />
-      <Text />
-      <h2 className="title" id="portfolio">Quelques sites vitrines en JS, Bootstrap, Sass</h2>
-      <Carousel images={Images.vitrine} />
-      <h2 className="title">
-        Quelques sites avec un CMS, wordPress, Jimdo, Prestashop
-      </h2>
-      <Carousel images={Images.cms} />
-      <h2 className="title">Blog et projets fictifs </h2>
-      <Carousel images={Images.projects} />
-      <Footer />
-      <Arrow arrayArrow={arrayArrow.training} />
+      <div className="cardBorder">
+          <Video />
+          <Header />
+          <div className="d-flex justify-content-around my-5">
+              <CardPortfolio portfolio={portfolio.vitrineBoostrap} />
+              <CardPortfolio portfolio={portfolio.vitrineCMS} />
+              <CardPortfolio portfolio={portfolio.personalProject} />
+          </div>
+          <Text />
+          <SoftSkills />
+          <Footer />
+          <Arrow arrayArrow={arrayArrow.portfolioDown} />
+      </div>
+          <SlideLanguages />
     </>
   );
 }

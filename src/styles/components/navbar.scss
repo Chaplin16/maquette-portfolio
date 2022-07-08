@@ -1,69 +1,72 @@
 nav{
-    background:linear-gradient(0deg,#fff,rgb(226, 226, 226));
-    border-end-start-radius: 15px;
-    max-width: 7rem;
-    padding-left:0;
-    padding-top:2rem;
+    height: 100%;;
     position: fixed;
     top:0;
-    right:0;
+    left:0;
     z-index: 5;
-    &:hover{
-        box-shadow: -0.4px -0.4px 4px  rgb(194, 192, 192);
-    }
     ul{
+        position: relative;
         display: flex;
         flex-direction: column;
-        color:rgba(241, 240, 240, 0.767);
-        padding: 0.5rem;
-        line-height: 2rem;;
+        background-color:rgba(54, 50, 50, 0.7);
+        padding-left:75px!important;
+        padding-right:1rem;
+        height:100%!important;
+        min-height:100%;
+        line-height: 3rem;
+        font-size: 2em;
+        font-family: 'Arima Madurai', cursive;
         list-style:none;
-        position: relative;
         & .link {
-            color:rgba(133, 131, 131, 0.767);
-            &:hover{
-                color:rgba(156, 84, 238, 0.767);
-                border-bottom: 1px dotted grey;
-            }
+            color:rgb(255, 255, 255);
+            text-decoration: none;
         }
         .link-active{
-            color:rgba(156, 84, 238, 0.767);
-            border-bottom: 1px dotted grey;
+            color:#ecaae9;
         }
+    } 
+} 
+
+.btnMenu {
+    position: absolute;
+    top:2.5rem;
+    left:-2.5rem;
+    right:100%;
+    
+    & button {
+        backdrop-filter: blur(1.5px);;
+        background-color:rgba(223, 218, 218, 0.2);
+        display: flex;
+        font-size:1.8rem;
+        transform: rotate(-90deg);
+        border: none!important;
+        color: #000;
+    }
+    & .displayMenu{
+        transform: rotate(90deg);
+        padding-bottom:1rem;
+    }
+    &:hover,
+    &:focus{
+        outline: 0!important;
+        box-shadow: 0 0 0 transparent;
     }
 }
 
-
-
-@media screen and (min-width: 1000px){
-    button{
-        display: none!important;
-    }
-    nav{
-        padding-top:0;
-        padding-left:1rem;
-    }
-}
-
-@media screen and (max-width: 1000px){
-    .btn{
-        display: block;
-        position: absolute;
-        top:0;
-        right:0;
-        padding-right:1.3rem;
-        padding-left: 1.20rem;
-        align-items:center;
-        background-color:#e6e6e6;
-        color: rgba(116, 112, 112, 0.767);
-        &:hover{
-            color:rgba(156, 84, 238, 0.767);
-            box-shadow: 0 0 0 grey ;
-            outline: none!important;
+@media screen and (max-width:500px) {
+    .btnMenu {
+        margin-left:0.8rem!important;
+        button{
+        font-size: 1.2rem;
         }
-        &:focus{
-            outline: none!important;
-            box-shadow: -0.2px -0.4px 4px  rgb(164, 162, 162);
+        .displayMenu{
+            width: 18px;
+            height: auto;
         }
     }
+    nav ul{
+        font-size:1.5rem!important;
+        padding-left:45px!important;
+    }
+    
 }
