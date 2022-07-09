@@ -5,8 +5,8 @@ export default function Text() {
   return (
     <div className="text">
         <h2 className='text-center mb-5'>
-            Aurore <br/>developpeuse web junior <br/>
-            <span className='fw-bold'>au tarif stagiaire pour accroître mes compétences</span><br/>en télétravail
+            Aurore <br/>developpeuse web junior ⭐<br/>
+            <span className='fw-bold'>au tarif stagiaire pour accroître mes compétences</span><br/> télétravail  
         </h2>
         <ul className='service'>
             <li className='d-flex align-items-center my-2'>

@@ -58,7 +58,7 @@ export default function SlideLanguages() {
     <div id="slideLanguages" className="me-1">
       <Slider {...sliderSettings}>
         {ArrayLanguages.map((item) => (
-            <div className="my-3" key="uuidv4()">
+            <div className="my-3" key={uuidv4()}>
               <img src={item.image} alt={item.alt} />
             </div>
         ))}
