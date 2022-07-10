@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [largeur, setLargeur] = useState(window.innerWidth);
-  
+
   const navSmallScreen = () => {
     setToggleMenu(!toggleMenu);
   };
@@ -13,15 +13,29 @@ export default function Navbar() {
     const changeWidth = () => {
       setLargeur(window.innerWidth);
     };
-    window.addEventListener('click', changeWidth);
+    window.addEventListener("click", changeWidth);
     return () => {
-      window.removeEventListener('click', changeWidth);
+      window.removeEventListener("click", changeWidth);
     };
+  });
+
+  window.addEventListener("scroll", () => {
+
+    const scrollMenu1 = document.querySelector(".iconMenu1");
+    const scrollMenu2 = document.querySelector(".iconMenu2");
+
+    if (window.scrollY > 500) {
+      scrollMenu1.style.visibility = "hidden";
+      scrollMenu2.style.visibility = "visible";
+    } else {
+      scrollMenu1.style.visibility = "visible";
+      scrollMenu2.style.visibility = "hidden";
+    }
   });
 
   return (
     <nav>
-      {(toggleMenu) && (
+      {toggleMenu && (
         <ul>
           <NavLink
             to="/"
@@ -31,7 +45,7 @@ export default function Navbar() {
             Accueil
           </NavLink>
           <NavLink
-            to="/Portfolio" 
+            to="/Portfolio"
             className={({ isActive }) => (isActive ? "link-active" : "link")}
             onClick={navSmallScreen}
           >
@@ -55,8 +69,17 @@ export default function Navbar() {
       )}
       <div className="btnMenu">
         <button onClick={navSmallScreen} id="menu">
-            MENU
-            <img className="displayMenu" src="./assets/icon/afficher-menu.png" alt="afficher le menu" />
+          MENU
+          <img
+            className="iconMenu1"
+            src="./assets/icon/afficher-menu.png"
+            alt="afficher le menu"
+          />
+          <img
+            className="iconMenu2"
+            src="./assets/icon/afficher-menu-rose.png"
+            alt="afficher le menu"
+          />
         </button>
       </div>
     </nav>

@@ -9,7 +9,7 @@ nav{
         display: flex;
         flex-direction: column;
         background-color:rgba(54, 50, 50, 0.7);
-        padding-left:75px!important;
+        padding-left:95px!important;
         padding-right:1rem;
         height:100%!important;
         min-height:100%;
@@ -32,19 +32,25 @@ nav{
     top:2.5rem;
     left:-2.5rem;
     right:100%;
-    
+    width: 50px;
     & button {
+        align-items: center;
         backdrop-filter: blur(1.5px);;
         background-color:rgba(223, 218, 218, 0.2);
         display: flex;
-        font-size:1.8rem;
+        font-size:1.6rem;
         transform: rotate(-90deg);
         border: none!important;
         color: #000;
     }
-    & .displayMenu{
+    & .iconMenu1{
         transform: rotate(90deg);
         padding-bottom:1rem;
+    }
+    & .iconMenu2{
+        transform: rotate(90deg);
+        padding-top:2rem;
+              
     }
     &:hover,
     &:focus{
@@ -53,20 +59,24 @@ nav{
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:975px) {
     .btnMenu {
-        margin-left:0.8rem!important;
+        margin-left:-0.6rem!important;
+        width: 30px;
         button{
         font-size: 1.2rem;
+        & img{
+            width:27px;
         }
-        .displayMenu{
-            width: 18px;
-            height: auto;
+        .iconMenu2 {
+            visibility : hidden
+            }
         }
+      
     }
     nav ul{
         font-size:1.5rem!important;
-        padding-left:45px!important;
+        padding-left:80px!important;
     }
     
 }

@@ -74,7 +74,7 @@ export default function Footer() {
         </div>
         <div>
             <div className="flag d-flex justify-content-center mb-5">
-                <img className="imgFooter"
+                <img className="imgFooter me-4"
                     src="./assets/flag-english.png"
                     alt="anglais technique lu et ecrit"
                    
