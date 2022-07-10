@@ -50,6 +50,7 @@ nav{
     & .iconMenu2{
         transform: rotate(90deg);
         padding-top:2rem;
+        visibility: hidden;
               
     }
     &:hover,
@@ -68,12 +69,9 @@ nav{
         & img{
             width:27px;
         }
-        .iconMenu2 {
-            visibility : hidden
-            }
-        }
-      
+       
     }
+}
     nav ul{
         font-size:1.5rem!important;
         padding-left:80px!important;
