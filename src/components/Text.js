@@ -21,7 +21,6 @@ export default function Text() {
                 <img src="./assets/icon/aurore-check.png" alt="" />
                 <p className='m-0 ps-3 lead'>avec API et base de données SQL et NoSQL</p>
             </li>
-
         </ul>
     </div>
   )

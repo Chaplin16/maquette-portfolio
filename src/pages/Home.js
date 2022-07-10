@@ -10,11 +10,13 @@ import SoftSkills from "../components/SoftSkills";
 import Footer from "../components/Footer";
 import Arrow from "../components/CardArrow";
 import SlideLanguages from "../components/SlideLanguages";
+import Message from "../components/Message";
 
 
 export default function Home() {
   return (
     <>
+    <Message />
       <div className="cardBorder">
           <Video />
           <Header />

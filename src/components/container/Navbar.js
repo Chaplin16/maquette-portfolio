@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
-  const setLargeur = useState(window.innerWidth);
+  const [largeur, setLargeur] = useState(window.innerWidth);
   
   const navSmallScreen = () => {
     setToggleMenu(!toggleMenu);

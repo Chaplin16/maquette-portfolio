@@ -9,15 +9,6 @@ const training = {
       li2:"Projet 5: Créer le front-end d'un projet e-commerce en JS/Boostrap.",
       li3:"Projet 4: Améliorer un site aux normes SEO",
       li4:" Projet 3: Reproduire la maquette d'un site en pur JS avec ajout d'animations CSS.",
-      // li: [
-      //   {
-      //     Projet: "Projet 7: Créer un réseau social (back-end avec Node.js et Sequelize, front-end avec JS/Boostrap/Express.",
-      //     li2: "Projet 6: Créer le back-end d'une application avec  BDD, API , routes, en JS",
-      //     li3: "Projet 5: Créer le front-end d'un projet e-commerce en JS/Boostrap.",
-      //     li4: "Projet 4: Améliorer un site aux normes SEO",
-      //     li5: " Projet 3: Reproduire la maquette d'un site en pur JS avec ajout d'animations CSS.",
-      //   },
-      // ],
       image: "./assets/oc-dev.png",
       alt: "site internet d'OpenclassRooms",
       link: "https://openclassrooms.com/fr/paths/556-developpeur-web",

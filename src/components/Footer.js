@@ -77,7 +77,7 @@ export default function Footer() {
                 <img className="imgFooter"
                     src="./assets/flag-english.png"
                     alt="anglais technique lu et ecrit"
-                    class="me-4"
+                   
                 />
                 <img src="./assets/flag-french.png" alt="langue maternelle" />
             </div>
