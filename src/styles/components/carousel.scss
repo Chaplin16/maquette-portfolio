@@ -33,3 +33,10 @@ $color-text: #838080;
     width:8rem;
     font-family: 'Arima Madurai', cursive;
 }
+
+
+@media screen and (max-width:380px){
+    .title{
+        font-size: 1.5rem!important;
+    }
+}
