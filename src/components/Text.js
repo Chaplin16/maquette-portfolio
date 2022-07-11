@@ -11,11 +11,11 @@ export default function Text() {
         <ul className='service'>
             <li className='d-flex align-items-center my-2'>
                 <img src="./assets/icon/aurore-check.png" alt="" />
-                <p className='m-0 ps-3 lead'> soit en Front-end HTML CSS JS BOOTSTRAP SASS REACT EXPRESS</p>
+                <p className='m-0 ps-3 lead'> soit en Front-end HTML CSS JS BOOTSTRAP SASS REACT </p>
             </li>
             <li className='d-flex align-items-center my-2'>
                 <img src="./assets/icon/aurore-check.png" alt="" />
-                <p className='m-0 ps-3 lead'>soit en Back-end avec NODE.JS SEQUELIZE</p>
+                <p className='m-0 ps-3 lead'>soit en Back-end avec NODE.JS SEQUELIZE EXPRESS</p>
             </li>
             <li className='d-flex align-items-center my-2 '>
                 <img src="./assets/icon/aurore-check.png" alt="" />
