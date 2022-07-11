@@ -13,7 +13,7 @@ export default function Realisations() {
           Quelques sites avec un CMS, wordPress, Jimdo, Prestashop
         </h2>
         <Carousel images={Images.cms} />
-        <h2 className="title" id="personal">Blog et projets fictifs en React et/ou Next</h2>
+        <h2 className="title" id="personal">Blogs avec Node.js/MongoDB et projets fictifs en React/Next</h2>
         <Carousel images={Images.projects} />
         <div className="d-flex justify-content-center ">
             <Arrow arrayArrow={arrayArrow.home}/>

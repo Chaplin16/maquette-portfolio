@@ -7,6 +7,9 @@ $color-text: #838080;
     margin: auto;
     padding-left:5%;
 }
+.title{
+    margin-left:1rem;
+}
 .title,
 .content {
     font-family: 'Arima Madurai', cursive;
@@ -37,6 +40,6 @@ $color-text: #838080;
 
 @media screen and (max-width:380px){
     .title{
-        font-size: 1.5rem!important;
+        font-size: 1.4rem!important;
     }
 }
