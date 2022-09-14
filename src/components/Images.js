@@ -49,7 +49,7 @@ const Images = {
         {
             image:'./assets/site-vitrine/aurore-creation-web-nuit-de-folie.png',
             alt:"Création d'un site pour une boutique de lingerie fine",
-            link:'https://nuitdefolie.fr/'
+            link:'https://chaplin16.github.io/NuitDeFolie/'
         },
         {
             image:'./assets/site-vitrine/aurore-creation-web-cordonnier-remparts.png',
@@ -74,7 +74,7 @@ const Images = {
         {
             image:'./assets/site-vitrine/aurore-creation-web-scenario.png',
             alt:"Création d'un site pour une boutique de vêtements pour femme",
-            link:'http://boutique-scenario.fr/'
+            link:'https://chaplin16.github.io/scenario/'
         },
         {
             image:'./assets/site-vitrine/aurore-creation-web-capsules.fr.png',
