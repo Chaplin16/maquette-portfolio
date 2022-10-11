@@ -24,7 +24,7 @@ const Images = {
         {
             image:'./assets/site-vitrine/aurore-creation-web-verre-azur.png',
             alt:"Création d'un site pour une créatrice de bijoux",
-            link:'https://verre-azur.com/'
+            link:'https://chaplin16.github.io/verreAzur/'
         },
         {
             image:'./assets/site-vitrine/aurore-creation-web-angelina-bike.png',
@@ -44,7 +44,7 @@ const Images = {
         {
             image:'./assets/site-vitrine/aurore-creation-web-o-phil-des-saveurs.png',
             alt:"Création d'un site pour un traiteur",
-            link:'https://ophildessaveurs.fr/'
+            link:'https://chaplin16.github.io/OPhilDesSaveurs/'
         },
         {
             image:'./assets/site-vitrine/aurore-creation-web-nuit-de-folie.png',
@@ -59,7 +59,7 @@ const Images = {
         {
             image:'./assets/site-vitrine/aurore-creation-web-jotraiteur.png',
             alt:"Création d'un site pour un traiteur",
-            link:'https://jotraiteur.fr/'
+            link:'https://chaplin16.github.io/jotraiteur/'
         },
         {
             image:'./assets/site-vitrine/aurore-creation-web-location-appartement-marlene.png',
