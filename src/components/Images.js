@@ -83,31 +83,31 @@ const Images = {
         }
     ],
     cms : [
-        {
-            image:'./assets/site-cms/aurore-creation-web-carrousel.png',
-            alt:"Création d'un site internet pour",
-            link:'https://carrousel-aiguesmortes.fr/'
-        },
+        // {
+        //     image:'./assets/site-cms/aurore-creation-web-carrousel.png',
+        //     alt:"Création d'un site internet pour",
+        //     link:'https://carrousel-aiguesmortes.fr/'
+        // },
         {
             image:'./assets/site-cms/aurore-creation-web-judo.png',
             alt:"Création d'un site internet pour le club de judo",
             link:'https://judo-aiguesmortais.fr/'
         },
-        {
-            image:'./assets/site-cms/aurore-creation-web-salon-46.png',
-            alt:"Création d'un site internet pour un salon de coiffure",
-            link:'https://salon-46.fr/'
-        },
+        // {
+        //     image:'./assets/site-cms/aurore-creation-web-salon-46.png',
+        //     alt:"Création d'un site internet pour un salon de coiffure",
+        //     link:'https://salon-46.fr/'
+        // },
         {
             image:'./assets/site-cms/aurore-creation-web-jpcapsules.png',
             alt:"Création d'un site e-commerce pour la vente de capsules de champagne",
             link:'https://jpcapsules.fr/'
         },
-        {
-            image:'./assets/site-cms/aurore-creation-web-fashion-du-sud.png',
-            alt:"Création d'un site internet pour une boutique de vêtements féminins",
-            link:'https://lesfashiondusud.fr/'
-        },
+        // {
+        //     image:'./assets/site-cms/aurore-creation-web-fashion-du-sud.png',
+        //     alt:"Création d'un site internet pour une boutique de vêtements féminins",
+        //     link:'https://lesfashiondusud.fr/'
+        // },
         {
             image:'./assets/site-cms/aurore-creation-web-budgets-punjab.png',
             alt:"Création d'un site internet pour un restaurant indien",
